@@ -1,0 +1,23 @@
+{
+  "name": "image-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.js --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/jest": "^29.5.12",
+    "@types/jest-image-snapshot": "^6.4.0",
+    "babel-jest": "^29.7.0",
+    "globals": "link:@types/jest/globals",
+    "jest": "^29.7.0",
+    "jest-image-snapshot": "^6.4.0"
+  }
+}
