@@ -12,12 +12,24 @@
   "devDependencies": {
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
     "@babel/preset-typescript": "^7.24.1",
+    "@testing-library/react": "^14.2.2",
     "@types/jest": "^29.5.12",
+    "@types/jest-environment-puppeteer": "^5.0.6",
     "@types/jest-image-snapshot": "^6.4.0",
+    "@types/jsdom": "^21.1.6",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
     "babel-jest": "^29.7.0",
-    "globals": "link:@types/jest/globals",
     "jest": "^29.7.0",
-    "jest-image-snapshot": "^6.4.0"
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-image-snapshot": "^6.4.0",
+    "jest-puppeteer": "^10.0.1",
+    "jsdom": "^24.0.0",
+    "puppeteer": "^22.6.2",
+    "puppeteer-core": "^22.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

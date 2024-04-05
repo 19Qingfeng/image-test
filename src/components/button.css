@@ -1,0 +1,9 @@
+.ctrip-button {
+  background-color: blue;
+  color: #fff;
+}
+
+.ctrip-button:hover {
+  background-color: yellow;
+  color: red;
+}
